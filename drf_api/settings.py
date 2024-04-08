@@ -67,7 +67,10 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 DEBUG = 'DEV' in os.environ
 
 ALLOWED_HOSTS = ['8000-lindaapersson-pp5django-j3w3vs6fmsv.ws-eu110.gitpod.io', 'pp5-django-a9b03945e70a.herokuapp.com']
-
+CSRF_TRUSTED_ORIGINS = [
+"gitpod URL", 
+"heroku URL"
+]
 
 # Application definition
 
