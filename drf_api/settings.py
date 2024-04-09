@@ -68,8 +68,8 @@ DEBUG = 'DEV' in os.environ
 
 ALLOWED_HOSTS = ['8000-lindaapersson-pp5django-j3w3vs6fmsv.ws-eu110.gitpod.io', 'pp5-django-a9b03945e70a.herokuapp.com']
 CSRF_TRUSTED_ORIGINS = [
-"gitpod URL", 
-"heroku URL"
+"https://gitpod URL", 
+"https://heroku URL"
 ]
 
 # Application definition
